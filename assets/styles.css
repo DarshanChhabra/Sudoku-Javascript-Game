@@ -1,0 +1,105 @@
+:root {
+    font-family: Source Sans Pro,sans-serif;
+    font-size: 25px;
+}
+html {
+    box-sizing: border-box;
+}
+.tcenter {
+    text-align: center;
+}
+.hidden {
+    display: none;
+}
+.topBorder {
+    border-top: 2px solid #344861 !important;
+}
+.bottomBorder {
+    border-bottom: 2px solid #344861 !important;
+}
+.rightBorder {
+    border-right: 2px solid #344861 !important;
+}
+.leftBorder {
+    border-left: 2px solid  #344861 !important;
+}
+.setup {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.diff {
+    display: flex;
+    align-items: center;
+    padding: 10px 50px;
+    justify-content: space-between;
+}
+.diffbtn {
+    text-align: center;
+    justify-self: center;
+    width: auto;
+}
+.cell {
+    border: 1px #bec6d4 solid;
+    display: flex;
+    align-items : center;
+    justify-content: center;
+    margin: 0px;
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+    text-align: center;
+    user-select: none;
+
+}
+.cell:hover {
+    background-color: #99badd;
+}
+.game {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#board {
+    padding-top: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    width: 600px;
+    height: 600px;
+    min-width: 600px;
+    min-height: 600px;
+    padding-bottom: 0;
+}
+.val {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+.resval {
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+}
+.prefilled {
+    background-color: #dfe5f0 !important;
+    user-select: none;
+    color: rgb(14, 7, 119);
+}
+p.highlighted {
+    background-color: rgb(226, 244, 250);
+}
+p.selected {
+    background-color: lightblue;
+}
+p.incorrect {
+    color: red !important;
+}
+p.modified {
+    background-color: rgb(129, 194, 224);
+}
+p.dup {
+    background-color: #99badd !important;
+}
