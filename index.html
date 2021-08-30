@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku</title>
+    <link rel="icon" sizes="192x192" href="https://pbs.twimg.com/profile_images/1047734344327077888/fB9vXLeW_400x400.jpg">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <script type="text/javascript" src="./assets/script.js"></script>
+</head>
+<body>
+    <h1 class="tcenter">Sudoku</h1>
+    <div class="setup">
+        <div class="diff">
+            <button class="diffbtn" id="easydiff" onClick="changeDifficulty(1)">Easy</button>
+            <button class="diffbtn" id="mediumdiff" onClick="changeDifficulty(2)">Medium</button>
+            <button class="diffbtn" id="harddiff" onClick="changeDifficulty(3)">Hard</button>
+        </div>
+    </div>
+    <div class="game">
+        <div id="board"></div>       
+    </div>
+    <div class="resval">
+        <center><button class="val" onClick="validate()">Validate</button></center>
+        <br>
+        <center><button class="val" onClick="reset()">Reset</button></center>
+        </div>
+</body>
+</html>
